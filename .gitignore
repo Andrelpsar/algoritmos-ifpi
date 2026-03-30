@@ -1,3 +1,10 @@
 *.o
+*.obj
 *.exe
-*.file
+a.out
+main.exe
+bin/
+build/
+.vs/
+*.tmp
+*.swp   
