@@ -8,3 +8,5 @@ build/
 .vs/
 *.tmp
 *.swp   
+!Makefile
+!*.mk
