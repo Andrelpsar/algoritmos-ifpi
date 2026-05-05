@@ -3,7 +3,7 @@
 
 int main() {
 
-int n, ehprimo;
+int n, contPrimo = 0, contDivisores = 0;
 
 printf("Programa para identificar quantos numeros primos existem entre 1 e o numero n.\n");
 printf("\nForneca o numero n.\n");
@@ -19,11 +19,19 @@ if(n <= 0){
 
 for (int i = 1; i <= n; i++){
 
-    for (int j = 1; j <= i; j++){
-
+    for (int j = 1; j <= n; j++){
+        if (i % j == 0){
+            contDivisores++;
+        }
     }
-
+    if (contDivisores == 2){
+        contPrimo++;
+        printf("%d eh primo.\n", i);
+    }
+    contDivisores = 0;
 }
+
+printf("O numero de numeros primos entre 1 e %d eh %d.\n", n, contPrimo);
 
 return 0;
 }

@@ -13,7 +13,7 @@ scanf("%d", &distancia);
 printf("Informe o tempo transcorrido.\n");
 scanf("%d", &tempo);
 
-float velocidade = (float)distancia/tempo;
+float velocidade = ((float)distancia/tempo);
 
 printf("A velocidade eh de %.2fkm\\h", velocidade);
 

@@ -2,7 +2,11 @@
 
 int main (){
 
-printf("Hello, cold world.");
+int numero;
+
+numero = 3 % 1;
+
+printf("%d", numero);
 
 return 0;
 }
