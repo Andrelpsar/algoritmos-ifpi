@@ -92,7 +92,7 @@ for (int i = 1; i <= linha; i++){
     count += 2;
 }
 
-count = linha -1;
+//count -= 4;
 
 for (int i = linha - 1; i >=1; i--){
     if (i == 1){
@@ -106,11 +106,11 @@ for (int i = linha - 1; i >=1; i--){
         printf(" ");
     }
     printf("*");
-    for (int j = count; j >=1 ; j--){
+    for (int j = 1; j <= largura - 5 ; j++){
         printf(" ");
     }
     printf("*\n");
-    count -= 2;
+    largura -= 2;
 }
 /*
 consegui fazer um paralelogramo sem querer:
