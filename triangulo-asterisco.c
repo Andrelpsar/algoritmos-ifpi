@@ -11,7 +11,7 @@ do{
 }while (n <= 0);
 
 printf("\n");
-
+// triângulo retângulo===============================
 for (int i = 0; i < n; i++){
 
    for (int j = 0; j <= i; j++){
@@ -20,7 +20,7 @@ for (int i = 0; i < n; i++){
 
 printf("\n");
 }
-
+//====================================================
 printf("\n");
 
 for(int i = n; i >= 0; i--){
@@ -48,7 +48,7 @@ for (int i = n; i >= 1; i--) {
         for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        // Imprime asteriscos (2*i - 1 por linha)
+
         for (int j = 1; j <= 2 * i - 1; j++) {
             printf("*");
         }
