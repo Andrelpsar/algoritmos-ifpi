@@ -92,7 +92,10 @@ for (int i = 1; i <= linha; i++){
     count += 2;
 }
 
-//count -= 4;
+if (largura%2==0){
+    largura -= 1;
+    //printf("largura = %d", largura);
+}
 
 for (int i = linha - 1; i >=1; i--){
     if (i == 1){
@@ -106,7 +109,7 @@ for (int i = linha - 1; i >=1; i--){
         printf(" ");
     }
     printf("*");
-    for (int j = 1; j <= largura - 5 ; j++){
+    for (int j = 1; j <= largura - 4 ; j++){
         printf(" ");
     }
     printf("*\n");
