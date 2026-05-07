@@ -31,7 +31,7 @@ while (opcao == 1){
     scanf("%d", &opcao);
 }
 
-printf("Programa Finalizado.\nQuantida de clientes atendidos: %d.\n", cliente);
+printf("\nPrograma Finalizado.\nQuantida de clientes atendidos: %d.\n", cliente);
 
 return 0;
 }
