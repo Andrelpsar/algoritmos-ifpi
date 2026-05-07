@@ -117,7 +117,7 @@ for (int i = linha - 1; i >=1; i--){
 }
 /*
 consegui fazer um paralelogramo sem querer:
-
+*/
 for (int i = 1; i <= linha; i++){
     for(int j = 1; j <= linha - i; j++){
         printf(" ");
@@ -128,7 +128,7 @@ for (int i = 1; i <= linha; i++){
     }
     printf("\n");
 }
-*/
+
 
 
 return 0;
